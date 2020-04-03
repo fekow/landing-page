@@ -1,0 +1,161 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(192, 100%, 9%);
+}
+h1,h2,h3{
+    font-family: 'Poppins', sans-serif;
+}
+.top-container {
+    background-image: url(images/bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+    padding: 5rem;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+.button {
+    border-radius: 30px;
+    border: 0;
+    background-color: #fff;
+    font-weight: 700;
+    box-shadow: 0 0 1rem #00000029;
+    width: 11rem;
+    color: hsl(192, 100%, 9%);
+    font-size: .8rem;
+    transition: filter .4s;
+}
+.button:hover {
+    filter: brightness(95%);
+    border: 1px solid hsl(208, 11%, 55%);
+}
+.main-container {
+    display: flex;
+    flex-direction: row;
+justify-content: space-between;
+}
+.left-container {
+    padding-top: 8rem;
+}
+.heading {
+    width: 600px;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.subtitle {
+    width: 660px;
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+}
+.pink {
+    background-color: hsl(322, 100%, 66%);
+    color: #fff;
+    height: 3rem;
+    width: 15rem;
+}
+.mid-container {
+    margin: 10rem 0 13rem;
+}
+.card {
+    box-shadow: 0 0 1rem #00000014;
+    border-radius: 13px;
+    padding: 2rem;
+    margin: 2rem 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    transition: box-shadow 0.2s ease-in-out;
+}
+.text {
+    width: 500px;
+    padding: 8rem 0 0 5rem;
+}
+.description {
+    color: hsl(208, 11%, 55%);
+}
+.img {
+    width: 550px;
+}
+
+.floating-div {
+    box-shadow: 0 0 1rem #00000014;
+    border-radius: 13px;
+    padding: 2rem;
+    margin: -5rem auto;
+    width: 600px;
+    z-index: 10000;
+    position: relative;
+    background-color: white;
+}
+.bottom {
+    margin: 1rem 9rem;
+}
+
+
+.footer {
+    background-color: hsl(192, 100%, 9%);
+    padding: 13rem 8rem 0;
+}
+.bottom-container {
+    padding-top: 2rem;
+    display: flex;
+    color: hsl(193, 100%, 96%);
+}
+.row {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+
+}
+td {
+    padding: 0 .7rem
+}
+.icons {
+    flex-direction: row;
+}
+i {
+    padding: 0 1rem;
+}
+
+
+.copyright {
+    text-align: right;
+    color: hsl(193, 100%, 96%);
+}
+@media (max-width: 1000px){
+    body, html {
+        text-align: center;
+    }
+    .card {
+        flex-direction: column;
+        padding: 2rem;
+        margin: 2rem;
+    }
+    .text {
+        padding: 0;
+        width: 100%;
+    }
+    .img {
+        width: 100%;
+    }
+    .main-container {
+        flex-direction: column;
+    }
+    .right-container {
+        width: 100%;
+    }
+    .footer{
+        padding: 7rem 0 0;
+    }
+    .bottom-container{
+        padding: 1rem;
+    }
+    .left-container {
+        padding: 0 0 4rem;
+    }
+}
