@@ -1,4 +1,4 @@
-# ACESSO O SITE AQUI: https://fekow.github.io/landing-page/  (INCOMPLETO)
+# ACESSE O SITE AQUI: https://fekow.github.io/landing-page/  (INCOMPLETO)
 
 # Frontend Mentor - Huddle landing page with alternating feature blocks
 
